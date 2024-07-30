@@ -1,0 +1,236 @@
+body{background-color: rgb(37, 228, 206);
+  position: relative;
+}
+main{
+    width: 86%;
+    margin: auto;
+}
+.fv{
+    padding: 80px;
+    margin-bottom: 160px;
+
+}
+.fv img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+border-radius: 40px;
+}
+.fv h1{
+  z-index: 9594949494949494949494949494949494949494999493993393939939484848484848458585858588893294384438494834;
+transform: translateX(-50%);
+    margin-top: -50px;
+    left: 50%;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    color: #ffff;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+    .favorite{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px 120px;
+        text-align: center;
+        }
+        .section-title{
+            color: #ffff;
+            font-size: 60px;
+            font-family:monospace
+        }
+
+        .favorite h3{
+            color: #ffff;
+            font-size: 40px;
+            margin-top: 80px;
+        }
+        .favorite h3 span{
+            font-size: 60px;
+        }
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 4%;
+    background: #ffff ;
+    border-radius: 40px;
+    padding: 60px;
+}
+
+.card img{
+    width: 48%;
+    max-width: 400px;
+    height: 500px;
+    border-radius: 24px;
+    object-fit: cover;
+}
+.card .text {
+    text-align: left;
+}
+
+.card .text h4{
+    font-size: 50px;
+    color: rgb(37, 228, 206);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 40px;
+}
+.card .text p{
+    font-size: 28px;
+    color:rgb(37, 228, 206);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card .sns{
+    margin-top: 24px;
+}
+.sns img
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 8px;
+
+}
+.gallery {
+    text-align: center;
+    margin: auto;
+    padding: 0 20px 120px;
+    max-width: 1200px;
+}
+.gallery .section-title {
+    margin-bottom: 60px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.images:last-child{
+    align-items: start;
+}
+
+.fadeIn {
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+  }
+  
+  
+  .header-nav a:hover{
+    color: red;
+  }
+
+    .fadeIn {
+      transition-duration: 1000ms;
+      transition-property: opacity, transform;
+      transform: translate(0, 100px);
+      opacity: 0;
+    }
+    .fadeIn.scrollin {
+      opacity : 1;
+      transform: translate(0, 0);
+    }
+
+  .fv h1::before{
+    content: "🇺🇬";
+    display: inline-block;
+  }
+  body{
+    background: #14b0b3;
+  }
+  main{
+    width: 86%;
+    margin: auto;
+  }
+  .fv{
+    padding: 80px;
+    margin-bottom: 160px;
+  }
+  
+  .fv img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 40px;
+  }
+  
+  .fv h1{
+    margin-top: -50px;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 900;
+  }
+  
+  .favorite{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 120px;
+    text-align: center;
+  }
+  
+  .section-title{
+    color: #fff;
+    font-size: 60px;
+  }
+  
+  .favorite h3{
+    color: #fff;
+    margin-top: 80px;
+    font-size: 40px;
+  }
+  
+  .favorite h3 span{
+    font-size: 60px;
+  }
+  
+  .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    background: #fff;
+    border-radius: 40px;
+    padding: 60px;
+  }
+  
+  .card img{
+    width: 48%;
+    max-width: 400px;
+    height: 500px;
+    border-radius: 24px;
+    object-fit: cover;
+  }
+  
+  .card .text{
+    width: 48%;
+    text-align: left;
+  }
+  
+  .card .text h4{
+    color: #14b0b3;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  .card .sns{
+    margin-top: 24px;
+  }
+  
+  .sns img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+
+
+  
